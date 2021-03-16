@@ -1,0 +1,2 @@
+# qualified
+Exercícios do qualified
