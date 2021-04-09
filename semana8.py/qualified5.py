@@ -33,10 +33,14 @@ Saída: True'''
 
 
 
+
+
+
+
 def balanceado(texto):
     p_1 = list()
     p_2 = list()
-    if texto == "":
+    if texto == []:
         return True
     elif texto[0] == ")":
         return False
@@ -54,4 +58,4 @@ def balanceado(texto):
         return resposta
    
 
-print(balanceado(""))
+print(balanceado("(s))"))
